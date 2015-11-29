@@ -124,13 +124,6 @@ a:active {
 .mt-20 {
 	margin-top: 20px;
 }
-/*misc*/
-.checkbox .control-label {
-	padding-left: 35px;
-}
-.checkbox > .form-group {
-	padding-left: 20px;
-}
 
 /*main styling end*/
 
@@ -156,3 +149,26 @@ a:active {
 	url("../fonts/Open_Sans/OpenSans-Light.eot") format('embedded-opentype'); /* EOT file for IE */
 }
 /****end Open Sans font*****/
+
+
+/** Styling Navigation Bar Begins **/
+.nav1 {
+  background: #fff;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+}
+
+nav {
+  position: absolute;
+  bottom: 0;
+  height: 52px;
+  width: 100%;
+  background: #fff;
+}
+
+.goToTop {
+  position: fixed;
+  top: 0;
+  height: 52px;
+  z-index: 1;
+} 
+/**Styling Navigation Bar Ends **/

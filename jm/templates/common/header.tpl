@@ -143,10 +143,11 @@
 	{*  bootstrap js start *}
 	<script type="text/javascript" src="{$baseUrl}/public/assets/js/bootstrap.min.js"></script>
 	{*  bootstrap js end *}
-
+	
+	<!--Sam CSS/JS -->
 	<script type="text/javascript" src="{$baseUrl}/public/assets/js/jm.js"></script>
-
 	<link rel="stylesheet" href="{$baseUrl}/public/assets/css/jm.css" type="text/css" />
+	
 </head>
 <body id="pkp-{$pageTitle|replace:'.':'-'}">
 
@@ -196,7 +197,7 @@
 
 {*sidebar now in footer*}
 
-<div id="main" class="col-md-9">
+<div id="main" class="col-md-9 cont">
 
 {include file="common/breadcrumbs.tpl"}
 
@@ -208,4 +209,3 @@
 {/if}
 
 <div id="content">
-
